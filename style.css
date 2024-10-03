@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlinks h5 {
+    padding-right: 2vw;
+    font-size: 1.9vw;
+}
+.page1 h4 {
+    color: white;
+    text-align: left;
+    padding: 1vw;
+    padding-left: 2vw;
+    opacity: 0.8;
+    font-family: 'Boska', serif;
+    font-weight: 100;
+    font-size: 1.4vw;
+    font-family: 'Melodrama', serif;
+
+}
+.content h1 {
+    color: white;
+    font-weight: 400;
+    padding-left: 2vw;
+    opacity: 0.8;
+    margin-top: 6vw;
+    font-size: 10vw;
+    font-family: 'Excon', sans-serif;
+    font-family: 'Melodrama', serif;
+    letter-spacing: 3;
+
+
+}
+.do {
+    margin-top: 3vw;
+}
+.do a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+.do h5:hover{
+    color: gray;
+}
+.do h5 {
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 2vw;
+    font-size: 1.8vw;
+    margin-left: 80vw;
+}
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+}
+.page2 img {
+    opacity: 0.7;
+}
+.imagepage2 img {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94)2s;
+}
+.imagepage2 img:hover{
+    filter: grayscale(1);
+}
+.akashinfo {
+    margin-top: 30vw;
+    margin-left: 10vw;
+    line-height: 1.5;
+}
+.akashinfo h5 {
+    color: white;
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 2vw;
+    
+}
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    overflow-y: hidden;
+}
+.page3left{
+    width: 50vw;
+    height: 100vh;
+}
+.page3right{
+    width: 50vw;
+    height: 100vh;
+}
+.page3left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+.page3right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.page4 h2 {
+    color: white;
+    font-size: 28vw;
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+}
+.page5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.page5 h3 {
+    color:white;
+    opacity: 0.8;
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 3vw;
+    font-size: 3vw;
+
+}
+.page5 video {
+    margin-top: 2vw;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+   
+}
+.page6   {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.page6   h3 {
+    color:white;
+    opacity: 0.8;
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 3vw;
+    font-size: 3vw;
+
+}
+.page6   img {
+    margin-top: 2vw;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+   
+}
+.page7  {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.page7   h3 {
+    color:white;
+    opacity: 0.8;
+    font-family: 'Melodrama', serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 3vw;
+    font-size: 3vw;
+
+}
+.page7   img {
+    margin-top: 2vw;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+   
+}
+.page8 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.page8 img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+
+
+
+@media (max-width:600px){
+    .navlinks h5 {
+        padding-right: 2vw;
+        font-size: 6vw;
+    }
+    .page1 h4 {
+        color: white;
+        text-align: left;
+        padding: 1vw;
+        padding-left: 2vw;
+        opacity: 0.8;
+        font-family: 'Boska', serif;
+        font-weight: 100;
+        font-size: 5vw;
+        font-family: 'Melodrama', serif;
+    
+    }
+    .content h1 {
+        color: white;
+        font-weight: 400;
+        padding-left: 2vw;
+        opacity: 0.8;
+        margin-top: 15vw;
+        font-size: 20vw;
+        font-family: 'Excon', sans-serif;
+        font-family: 'Melodrama', serif;
+        letter-spacing: 3;
+    
+    
+    }
+    .do {
+        margin-top: 6vw;
+    }
+    .do a {
+        text-decoration: none;
+        color: white;
+        opacity: 0.8;
+        line-height: 3;
+    }
+    .do h5:hover{
+        color: gray;
+    }
+    .do h5 {
+        font-family: 'Melodrama', serif;
+        color: white;
+        font-weight: 400;
+        padding-left: 2vw;
+        font-size: 6vw;
+        margin-left: 47vw;
+    }
+    .imagepage2 img {
+        width: 50vw;
+        height: 80vw;
+        object-fit: cover;
+        object-position: top;
+        margin-left: 25vw;
+        margin-top: 6vw;
+       
+    }
+    .page2 {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    .akashinfo h5 {
+        color: white;
+        font-family: 'Melodrama', serif;
+        color: white;
+        font-weight: 400;
+        font-size: 5vw;
+        
+    }
+    
+}
